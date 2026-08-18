@@ -18,24 +18,6 @@ st.markdown("""
 </script>
 """, unsafe_allow_html=True)
 
-# -------boton descarga-------------
-st.markdown("""
-<a href="https://antonellita.streamlit.app/" download>
-    <button style="
-        background-color:#ff2d95;
-        color:white;
-        font-size:20px;
-        font-weight:bold;
-        border-radius:50px;
-        padding:15px 30px;
-        border:none;
-        box-shadow:0 4px 10px rgba(0,0,0,0.2);
-    ">
-    📥 Descargar la app
-    </button>
-</a>
-""", unsafe_allow_html=True)
-
 # ---------- ESTILOS (rosado/fucsia) ----------
 st.markdown("""
     <style>
