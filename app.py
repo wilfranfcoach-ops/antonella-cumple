@@ -9,6 +9,7 @@ st.set_page_config(
 )
 
 # ---------- ESTILOS (rosado/fucsia) ----------
+<<<<<<< HEAD
 # ---------- PWA: manifest y service worker ----------
 st.markdown("""
 <link rel="manifest" href="manifest.json">
@@ -18,6 +19,9 @@ st.markdown("""
   }
 </script>
 """, unsafe_allow_html=True)
+=======
+st.markdown("""
+>>>>>>> adb2cd3561ee52b75aaa885a40fa2884472f9be2
     <style>
     .stApp {
         background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #ff6ec7 100%);
@@ -50,6 +54,7 @@ st.markdown("""
         color: #d6006c;
         font-weight: 600;
     }
+<<<<<<< HEAD
     @media (max-width: 600px) {
     h1, h2, h3, p {
         font-size: 18px !important;
@@ -60,6 +65,8 @@ st.markdown("""
     }
 }
 
+=======
+>>>>>>> adb2cd3561ee52b75aaa885a40fa2884472f9be2
     </style>
 """, unsafe_allow_html=True)
 
